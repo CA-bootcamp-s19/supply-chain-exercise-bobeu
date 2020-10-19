@@ -10,7 +10,7 @@ with `npm install -g truffle`.
 */
 let BN = web3.utils.BN
 let SupplyChain = artifacts.require('SupplyChain')
-let catchRevert = require("./exceptionsHelpers.js").catchRevert
+// let catchRevert = require("./exceptionsHelpers.js").catchRevert
 
 contract('SupplyChain', function(accounts) {
 
